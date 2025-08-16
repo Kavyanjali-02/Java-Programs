@@ -1,0 +1,19 @@
+package arrays;
+import java.util.Scanner;
+
+public class WhetherTheNumThere {
+	public static void main(String[] args) {
+		int a[]= {1,2,3,4,5};
+		System.out.println("enter:");
+		Scanner sc=new Scanner(System.in);
+		int b=sc.nextInt();
+		for(int i=0;i<a.length;i++) {
+			if(b==a[i]) {
+				System.out.println("its is present");
+			}
+			else {
+				System.out.println("its not present");
+			}
+		}
+	}
+}

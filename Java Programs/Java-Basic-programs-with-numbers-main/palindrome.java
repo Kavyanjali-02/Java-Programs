@@ -1,0 +1,23 @@
+package BasicProgram;
+
+import java.util.Scanner;
+
+public class Palindrome {
+	public static void main(String[] args) {
+		int a=123;
+		int original=a;
+		int reverse=0;
+		while(a>0) {
+		     int dig=a%10;
+			reverse=reverse*10+dig;
+			a=a/10;
+  }
+		if(original==reverse) {
+			System.out.println("palindrome");
+		}
+		else {
+			System.out.println("not");
+		}
+		
+	}
+}
